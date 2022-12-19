@@ -1,6 +1,6 @@
 <?php
 $contador=0;
-if ($fd = fopen('counter.txt','r')) {
+if($fd = fopen('counter.txt','r')){
     $contador=fgets($fd);
 }
 fclose($fd);
